@@ -1,0 +1,21 @@
+{
+  "name": "03demo_microservices_api_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-blog": "nodemon blog-service",
+    "dev-comment": "nodemon comment-service",
+    "dev-apigateway": "nodemon api-gateway"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.16.0",
+    "express": "^5.2.1",
+    "http-proxy-middleware": "^3.0.5",
+    "nodemon": "^3.1.14"
+  }
+}
